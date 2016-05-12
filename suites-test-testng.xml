@@ -1,0 +1,21 @@
+<suite name="Parallel tests" parallel="tests" thread-count="2" >
+
+
+  <listeners>
+    <listener class-name="reporter.CustomReporter" />
+  </listeners>
+
+  <test name="Test One">
+    <parameter name="test-name" value="Test One"/>
+    <classes>
+      <class name="com.demo.ParallelSuiteTest" />
+    </classes>
+  </test>
+  <test name="Test Two">
+    <parameter name="test-name" value="Test Two"/>
+    <classes>
+      <class name="com.demo.ParallelSuiteTest" />
+    </classes>
+  </test>
+  
+</suite>

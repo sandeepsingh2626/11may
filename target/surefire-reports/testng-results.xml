@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel tests" duration-ms="3" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+    <groups>
+    </groups>
+    <test name="Test Two" duration-ms="3" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+      <class name="com.demo.ParallelSuiteTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.demo.ParallelSuiteTest@8caa572]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Two]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.demo.ParallelSuiteTest@8caa572]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.demo.ParallelSuiteTest@8caa572]" name="testMethodOne" duration-ms="1" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.ParallelSuiteTest@8caa572]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.demo.ParallelSuiteTest@8caa572]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Test One" duration-ms="3" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+      <class name="com.demo.ParallelSuiteTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.demo.ParallelSuiteTest@516e9cbe]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test One]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.demo.ParallelSuiteTest@516e9cbe]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.demo.ParallelSuiteTest@516e9cbe]" name="testMethodOne" duration-ms="1" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.ParallelSuiteTest@516e9cbe]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.demo.ParallelSuiteTest@516e9cbe]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="Group of group Suite" duration-ms="34" started-at="2016-05-11T14:40:07Z" finished-at="2016-05-11T14:40:08Z">
+    <groups>
+      <group name="include-test-two">
+        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:com.demo.RegularExpressionGroupTest@65e600bf]" name="testMethodTwo" class="com.demo.RegularExpressionGroupTest"/>
+      </group>
+      <group name="include-test-one">
+        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:com.demo.RegularExpressionGroupTest@65e600bf]" name="testMethodOne" class="com.demo.RegularExpressionGroupTest"/>
+      </group>
+    </groups>
+    <test name="Group of group Test" duration-ms="34" started-at="2016-05-11T14:40:07Z" finished-at="2016-05-11T14:40:08Z">
+      <class name="com.demo.RegularExpressionGroupTest">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.demo.RegularExpressionGroupTest@65e600bf]" name="testMethodOne" duration-ms="7" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.demo.RegularExpressionGroupTest@65e600bf]" name="testMethodTwo" duration-ms="0" started-at="2016-05-11T14:40:08Z" finished-at="2016-05-11T14:40:08Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

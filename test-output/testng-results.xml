@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="41" started-at="2016-05-11T06:06:19Z" finished-at="2016-05-11T06:06:19Z">
+    <groups>
+      <group name="include-test-two">
+        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:com.demo.RegularExpressionGroupTest@3cc3b9c9]" name="testMethodTwo" class="com.demo.RegularExpressionGroupTest"/>
+      </group> <!-- include-test-two -->
+      <group name="include-test-one">
+        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:com.demo.RegularExpressionGroupTest@3cc3b9c9]" name="testMethodOne" class="com.demo.RegularExpressionGroupTest"/>
+      </group> <!-- include-test-one -->
+    </groups>
+    <test name="Group of group Test" duration-ms="41" started-at="2016-05-11T06:06:19Z" finished-at="2016-05-11T06:06:19Z">
+      <class name="com.demo.RegularExpressionGroupTest">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.demo.RegularExpressionGroupTest@3cc3b9c9]" name="testMethodOne" duration-ms="11" started-at="2016-05-11T11:36:19Z" finished-at="2016-05-11T11:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.demo.RegularExpressionGroupTest@3cc3b9c9]" name="testMethodTwo" duration-ms="2" started-at="2016-05-11T11:36:19Z" finished-at="2016-05-11T11:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+      </class> <!-- com.demo.RegularExpressionGroupTest -->
+    </test> <!-- Group of group Test -->
+  </suite> <!-- Group of group Suite -->
+</testng-results>
